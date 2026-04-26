@@ -13,7 +13,7 @@
   // handskrivna captions, en per index, atmosfäriska och vagt periodiserade
   const caps = {
     1:  "Cowboy in Sweden",
-    2:  "promofoto",
+    2:  "pre-ABBA, 1969",
     3:  "posen! händerna!",
     4:  "med Lee på dalahäst",
     5:  "hey cowboy!",
@@ -75,7 +75,8 @@
     fixed: true
   };
 
-  const startPicks = [4, 11, 19, 7, 22];   // 5 startbilder för cyklande slots
+  // 5 startbilder för cyklande slots, slumpas vid varje sidladdning
+  const startPicks = [...all].sort(() => Math.random() - 0.5).slice(0, 5);
   const slots = [];
 
   for (let i = 0; i < SLOT_COUNT; i++) {
