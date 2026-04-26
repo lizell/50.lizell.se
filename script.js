@@ -31,7 +31,7 @@
     17: "soul-fasen",
     19: "svensktoppen, 60-tal",
     20: "scenkläder",
-    21: "kameran",
+    21: "polo när det var snyggt",
     22: "70-tal igen",
     23: "comeback",
     24: "Gotland och cowboy",
@@ -101,7 +101,7 @@
 
     if (isFixed) btn.dataset.fixed = '1';
 
-    btn.addEventListener('click', () => openLightbox(img.src, cap));
+    btn.addEventListener('click', () => openLightbox(img.src, capEl.textContent));
     collage.appendChild(btn);
 
     slots.push({ btn, img, capEl, n: isFixed ? null : n, fixed: isFixed });
