@@ -3,7 +3,7 @@
   const exts = {
     1:'jpg',2:'jpg',3:'jpg',4:'jpg',5:'jpg',6:'jpg',7:'jpg',
     8:'webp',9:'avif',10:'jpg',11:'jpg',12:'webp',13:'jpg',
-    14:'jpg',15:'jpg',16:'jpg',17:'webp',18:'jpg',19:'jpg',
+    14:'jpg',15:'jpg',16:'jpg',17:'webp',19:'jpg',
     20:'jpg',21:'jpg',22:'webp',23:'jpg',24:'jpg',25:'jpg',
     26:'jpg',27:'jpg'
   };
@@ -29,7 +29,6 @@
     15: "Mello-vibes",
     16: "Stockholm, kanske",
     17: "soul-fasen",
-    18: "live",
     19: "country-eran",
     20: "scenkläder",
     21: "kameran",
