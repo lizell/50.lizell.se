@@ -17,7 +17,7 @@
     3:  "posen! händerna!",
     4:  "med Lee på dalahäst",
     5:  "någon turné",
-    6:  "studio",
+    6:  "alla stilar på en gång",
     7:  "tidigt 70-tal i motljus",
     8:  "skivomslag",
     9:  "TV",
