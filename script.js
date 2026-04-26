@@ -12,7 +12,7 @@
 
   // handskrivna captions, en per index, atmosfäriska och vagt periodiserade
   const caps = {
-    1:  "70-talet, klart",
+    1:  "Cowboy in Sweden",
     2:  "promofoto",
     3:  "posen! händerna!",
     4:  "med Lee på dalahäst",
