@@ -5,7 +5,7 @@
     8:'webp',9:'avif',10:'jpg',11:'jpg',12:'webp',13:'jpg',
     14:'jpg',15:'jpg',16:'jpg',17:'webp',19:'jpg',
     20:'jpg',21:'jpg',22:'webp',23:'jpg',24:'jpg',25:'jpg',
-    26:'jpg',27:'jpg'
+    26:'jpg',27:'jpg',28:'jpg'
   };
   const path = n => `images/nina-${String(n).padStart(2,'0')}.${exts[n]}`;
   const all = Object.keys(exts).map(Number);
@@ -37,7 +37,8 @@
     24: "Gotland och cowboy",
     25: "jeanshatt? Ja!",
     26: "toffsar, 60-tal OCH 90-tal",
-    27: "Nina, Nina, Nina"
+    27: "Nina, Nina, Nina",
+    28: "lilla pappsen"
   };
 
   // ── countdown ──────────────────────────────────────────
